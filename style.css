@@ -162,7 +162,7 @@ html, body {
 
 .preco{
   font-size: 20px;
-  color: gray (0,255,0);
+  color: purple;
   font-weight: bold;
   text-decoration: none;
 }
@@ -171,7 +171,7 @@ html, body {
 
 .titulo2{
   font-size: 45px;
-  color: white;
+  color: purple;
   margin-bottom: 1em;
   text-align: center;
   font-family: "Jersey 10", sans-serif;
@@ -193,5 +193,69 @@ html, body {
 }
 
 .imagem2{
-  width:80%;
+  width:400px;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.titulo3{
+  font-weight: 700;
+  font-size: 45px;
+  color:white;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.dispositivos{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.dispositivos img{
+  height: 100px;
+  padding: 0 50px;
+}
+
+.item{
+  font-size: 32px;
+  color: white;
+  padding: 0 50px;
+}
+
+.lista, .rodapelista{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+  font-family: "Bebas Neue", system-ui;
+}
+
+.listalink a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-left: 1em;
+}
+
+.listalink: hover{
+  color: purple;
+}
+
+.rodapetexto{
+  margin: 1em 0;
+  color: grey;
+  font-size: 15px;
+}
+
+.logo{
+  height: 100px;
+}
+
+.listalink a:active{
+  color: purple;
+}
+
+.rodape{
+  text-align: center;
+  margin: 5em 3em;
 }
